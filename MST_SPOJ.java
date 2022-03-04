@@ -38,7 +38,7 @@ public class MST_SPOJ {
             }
             for (Node n:list [temp.node]) {
                 if(!visited[n.node]){
-                    pq.add(new Node(n.node,n.cost));
+                    pq.add(n);
                 }
             }
         }
