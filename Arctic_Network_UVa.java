@@ -14,7 +14,6 @@ public class Arctic_Network_UVa {
         PriorityQueue<edge> q;
         ArrayList<edge>[] graph;
         double[] cost;
-        long total = 0;
         while (t-- > 0) {
             tok = new StringTokenizer(reader.readLine());
             int m = Integer.parseInt(tok.nextToken());
@@ -32,7 +31,6 @@ public class Arctic_Network_UVa {
             while (i++ < n - 1) {
                 graph[i] = new ArrayList<>();
             }
-            total += n * (n - 1) / 2;
             //getting the graph
             for (int j = 0; j < n - 1; j++) {
                 for (int k = j + 1; k < n; k++) {
