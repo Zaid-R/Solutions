@@ -3,7 +3,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Main{
+public class Arctic_Network_UVa {
 
     public static void main(String[] args) throws Exception {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
